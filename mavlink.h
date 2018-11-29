@@ -28,7 +28,10 @@
 #define MAVLINK_COMMAND_24BIT 1
 #endif
 
-#include "version.h"
-#include "commom/common.h"
+// #include "common/version.h"
+// #include "common/common.h"
+
+#include "ardupilotmega/version.h"
+#include "ardupilotmega/ardupilotmega.h"
 
 #endif // MAVLINK_H
